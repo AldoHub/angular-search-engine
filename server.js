@@ -9,3 +9,5 @@ app.get("/*", (req, res)=>{
     res.sendFile(path.join(__dirname + "/dist/index.html"));
 });
 console.log("Server running");
+
+//change the to "outputPath": "dist/", so it can read the files
