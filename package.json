@@ -15,6 +15,8 @@
     "@angular/animations": "~8.1.1",
     "@angular/common": "~8.1.1",
     "@angular/compiler": "~8.1.1",
+    "@angular/cli": "~8.1.1",
+    "@angular/compiler-cli": "~8.1.1",
     "@angular/core": "~8.1.1",
     "@angular/forms": "~8.1.1",
     "@angular/platform-browser": "~8.1.1",
@@ -24,12 +26,11 @@
     "ngx-pagination": "^4.1.0",
     "rxjs": "~6.4.0",
     "tslib": "^1.9.0",
-    "zone.js": "~0.9.1"
+    "zone.js": "~0.9.1",
+    "typescript": "~3.4.3"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.801.1",
-    "@angular/cli": "~8.1.1",
-    "@angular/compiler-cli": "~8.1.1",
     "@angular/language-service": "~8.1.1",
     "@types/node": "~8.9.4",
     "@types/jasmine": "~3.3.8",
@@ -44,8 +45,8 @@
     "karma-jasmine-html-reporter": "^1.4.0",
     "protractor": "~5.4.0",
     "ts-node": "~7.0.0",
-    "tslint": "~5.15.0",
-    "typescript": "~3.4.3"
+    "tslint": "~5.15.0"
+   
   },
   "engines": {
     "node": "12.6.0",
