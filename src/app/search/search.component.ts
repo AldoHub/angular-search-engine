@@ -17,6 +17,7 @@ export class SearchComponent implements OnInit {
   public searchResults: any;
   public paginationElements: any;
   public errorMessage: any;
+  public page:any;
   
   constructor(private searchService: SearchService) { }
   
